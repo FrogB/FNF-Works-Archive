@@ -1,0 +1,111 @@
+{
+	"storyName": "extras",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Exuberant",
+			"bamb",
+			[
+				0,
+				0,
+				20
+			]
+		],
+		[
+			"Melancholy",
+			"impossible",
+			[
+				0,
+				20,
+				40
+			]
+		],
+		[
+			"Occasions",
+			"bevelbambi",
+			[
+				0,
+				175,
+				0
+			]
+		],
+		[
+			"Restored",
+			"linbi",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Divinity",
+			"oldoppobambi",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Annihilation",
+			"nimbi",
+			[
+				0,
+				180,
+				0
+			]
+		],
+		[
+			"Spamophobia 2",
+			"nimbi",
+			[
+				0,
+				180,
+				0
+			]
+		],
+		[
+			"Bash",
+			"samber",
+			[
+				255,
+				149,
+				79
+			]
+		],
+		[
+			"Sneaky",
+			"samber",
+			[
+				255,
+				149,
+				79
+			]
+		],
+		[
+			"Thearchy Teaser",
+			"ThearExpunged",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekName": "Extras"
+}

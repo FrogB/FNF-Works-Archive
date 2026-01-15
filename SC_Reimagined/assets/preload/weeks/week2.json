@@ -1,0 +1,43 @@
+{
+	"storyName": "the farm...",
+	"hideFreeplay": false,
+	"weekBackground": "pissy",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Dismantle",
+			"pissyboy",
+			[
+				0,
+				255,
+				0
+			]
+		],
+		[
+			"Blistering",
+			"bambiRage",
+			[
+				215,
+				0,
+				0
+			]
+		],
+		[
+			"Kernhell",
+			"bambiGod2d",
+			[
+				175,
+				175,
+				175
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Farm Feud"
+}

@@ -1,0 +1,50 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"hi",
+			"hi",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"what",
+			"hi",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"deez phones",
+			"hi",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekName": "penisballsex",
+	"hiddenUntilUnlocked": false
+}

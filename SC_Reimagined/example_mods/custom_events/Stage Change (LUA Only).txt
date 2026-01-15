@@ -1,0 +1,4 @@
+Changes stage if you have a .lua script made for them already
+This does not however change the .json for it (position of characters)
+
+Value 1: Stage to add

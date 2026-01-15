@@ -1,0 +1,34 @@
+{
+	"storyName": "the farm",
+	"hideFreeplay": false,
+	"weekBackground": "farm",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Mellowed",
+			"bambi",
+			[
+				0,
+				215,
+				0
+			]
+		],
+		[
+			"Cob",
+			"bambi",
+			[
+				0,
+				195,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "The Beginning"
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CrowdRight.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Crowd_Right0000" x="20" y="20" width="407" height="355" frameX="0" frameY="-2" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0001" x="20" y="20" width="407" height="355" frameX="0" frameY="-2" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0002" x="527" y="20" width="403" height="356" frameX="-2" frameY="-1" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0003" x="527" y="20" width="403" height="356" frameX="-2" frameY="-1" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0004" x="20" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0005" x="20" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0006" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0007" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0008" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0009" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0010" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0011" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0012" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0013" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+	<SubTexture name="Crowd_Right0014" x="521" y="476" width="401" height="357" frameX="-3" frameY="0" frameWidth="407" frameHeight="357"/>
+</TextureAtlas>

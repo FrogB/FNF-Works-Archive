@@ -1,0 +1,4 @@
+Lets a black screen cover your game, like a fade.
+
+Value 1: Alpha (0 to remove the blackscreen, 1 for full visibility)
+Value 2: Duration of transition

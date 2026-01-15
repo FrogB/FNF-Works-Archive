@@ -1,0 +1,84 @@
+{
+	"storyName": "The Tri-Dimension",
+	"hideFreeplay": false,
+	"weekBackground": "expungeds",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Tachophobia",
+			"3d",
+			[
+				26,
+				195,
+				33
+			]
+		],
+		[
+			"Deceit",
+			"unfairbambi",
+			[
+				160,
+				0,
+				0
+			]
+		],
+		[
+			"Pleasured",
+			"OppoExpunged",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Resistance",
+			"ThearExpunged",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Enmity",
+			"ThearExpunged",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Harawotateru",
+			"tsukareta",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Exasperation",
+			"phono",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Tri-Dimension"
+}

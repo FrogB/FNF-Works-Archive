@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="OppositionExpunged.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Opposition_Down0000" x="20" y="20" width="281" height="352" frameX="0" frameY="-3" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0001" x="20" y="20" width="281" height="352" frameX="0" frameY="-3" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0002" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0003" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0004" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0005" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0006" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0007" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0008" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0009" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0010" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0011" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0012" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0013" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Down0014" x="401" y="20" width="271" height="356" frameX="-8" frameY="0" frameWidth="281" frameHeight="356"/>
+	<SubTexture name="Opposition_Idle0000" x="772" y="20" width="238" height="362" frameX="-1" frameY="-8" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0001" x="772" y="20" width="238" height="362" frameX="-1" frameY="-8" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0002" x="1110" y="20" width="239" height="366" frameX="0" frameY="-4" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0003" x="1110" y="20" width="239" height="366" frameX="0" frameY="-4" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0004" x="1449" y="20" width="236" height="368" frameX="-6" frameY="-2" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0005" x="1449" y="20" width="236" height="368" frameX="-6" frameY="-2" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0006" x="1785" y="20" width="233" height="369" frameX="-11" frameY="-1" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0007" x="1785" y="20" width="233" height="369" frameX="-11" frameY="-1" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0008" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0009" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0010" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0011" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0012" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0013" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Idle0014" x="20" y="489" width="232" height="370" frameX="-12" frameY="0" frameWidth="244" frameHeight="370"/>
+	<SubTexture name="Opposition_Left0000" x="352" y="489" width="254" height="380" frameX="0" frameY="-3" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0001" x="352" y="489" width="254" height="380" frameX="0" frameY="-3" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0002" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0003" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0004" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0005" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0006" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0007" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0008" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0009" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0010" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0011" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0012" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0013" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Left0014" x="706" y="489" width="261" height="383" frameX="-2" frameY="0" frameWidth="263" frameHeight="383"/>
+	<SubTexture name="Opposition_Right0000" x="1067" y="489" width="239" height="369" frameX="-9" frameY="-5" frameWidth="249" frameHeight="374"/>
+	<SubTexture name="Opposition_Right0001" x="1067" y="489" width="239" height="369" frameX="-9" frameY="-5" frameWidth="249" frameHeight="374"/>
+	<SubTexture name="Opposition_Right0002" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0003" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0004" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0005" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0006" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0007" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0008" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0009" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0010" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0011" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0012" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0013" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Right0014" x="1406" y="489" width="249" height="374"/>
+	<SubTexture name="Opposition_Up0000" x="1755" y="489" width="266" height="413"/>
+	<SubTexture name="Opposition_Up0001" x="1755" y="489" width="266" height="413"/>
+	<SubTexture name="Opposition_Up0002" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0003" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0004" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0005" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0006" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0007" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0008" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0009" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0010" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0011" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0012" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0013" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+	<SubTexture name="Opposition_Up0014" x="20" y="1002" width="258" height="404" frameX="-2" frameY="-9" frameWidth="266" frameHeight="413"/>
+</TextureAtlas>

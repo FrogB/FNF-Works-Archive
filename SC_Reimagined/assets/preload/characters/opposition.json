@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Opposition_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				20
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Opposition_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				-21
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Opposition_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-34,
+				60
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Opposition_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-90,
+				6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Opposition_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/OppositionExpunged",
+	"position": [
+		60,
+		270
+	],
+	"healthicon": "oppo",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		90,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

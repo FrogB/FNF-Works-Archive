@@ -1,0 +1,126 @@
+{
+	"song": {
+		"events": [
+			[
+				4966.21621621622,
+				[
+					[
+						"SC Subtitles V2 - Edit",
+						"1",
+						"hello my name is hi guy and i am so cool"
+					]
+				]
+			],
+			[
+				8006.75675675676,
+				[
+					[
+						"SC Subtitles V2 - Reset",
+						"",
+						""
+					]
+				]
+			],
+			[
+				8108.10810810811,
+				[
+					[
+						"SC Subtitles V2 - Edit",
+						"1",
+						"lol you look kinda stupid lol"
+					]
+				]
+			],
+			[
+				11250,
+				[
+					[
+						"SC Subtitles V2 - Reset",
+						"",
+						""
+					]
+				]
+			],
+			[
+				11452.7027027027,
+				[
+					[
+						"SC Subtitles V2 - Edit",
+						"1",
+						"shut the fuck up you stupid bitch"
+					]
+				]
+			],
+			[
+				12871.6216216216,
+				[
+					[
+						"SC Subtitles V2 - Reset",
+						"",
+						""
+					]
+				]
+			],
+			[
+				13074.3243243243,
+				[
+					[
+						"SC Subtitles V2 - Edit",
+						"1",
+						"nop"
+					]
+				]
+			],
+			[
+				14493.2432432432,
+				[
+					[
+						"SC Subtitles V2 - Reset",
+						"",
+						""
+					]
+				]
+			],
+			[
+				14594.5945945946,
+				[
+					[
+						"SC Subtitles V2 - Edit",
+						"1",
+						"fuck you"
+					]
+				]
+			],
+			[
+				24273.6486486486,
+				[
+					[
+						"SC Subtitles V2 - Reset",
+						"",
+						""
+					]
+				]
+			],
+			[
+				24324.3243243243,
+				[
+					[
+						"SC Subtitles V2 - Edit",
+						"1",
+						"ok"
+					]
+				]
+			],
+			[
+				24425.6756756757,
+				[
+					[
+						"playVideo",
+						"old_person",
+						""
+					]
+				]
+			]
+		]
+	}
+}
