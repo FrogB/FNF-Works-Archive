@@ -1,0 +1,30 @@
+{
+	"storyName": "Your New Week",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Disposition Alt",
+			"bambiGod3d",
+			[
+				135,
+				135,
+				135
+			]
+		]
+	],
+	"weekName": "Custom Week"
+}

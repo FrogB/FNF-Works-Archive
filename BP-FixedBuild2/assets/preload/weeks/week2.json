@@ -1,0 +1,49 @@
+{
+	"storyName": "Hell",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Rebound",
+			"404",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Disposition",
+			"bambiGod3d",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Upheaval",
+			"god-expunged-1",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "WeekHell"
+}

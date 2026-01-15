@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				177615.384615384,
+				[
+					[
+						"Flash effect",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				177618.58974359,
+				[
+					[
+						"Hide or Show HUD elements",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				177621.794871795,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf-scared"
+					]
+				]
+			],
+			[
+				177625,
+				[
+					[
+						"Play Animation",
+						"scared",
+						"GF"
+					]
+				]
+			]
+		]
+	}
+}

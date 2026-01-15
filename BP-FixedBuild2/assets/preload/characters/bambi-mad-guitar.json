@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				30,
+				-45
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Shred Idle"
+		},
+		{
+			"offsets": [
+				119,
+				65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Shred Left"
+		},
+		{
+			"offsets": [
+				-45,
+				66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Shred Right"
+		},
+		{
+			"offsets": [
+				3,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Shred Up"
+		},
+		{
+			"offsets": [
+				45,
+				-69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Shred Down"
+		},
+		{
+			"offsets": [
+				76,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "TakeOut",
+			"indices": [],
+			"name": "Shred Take Out"
+		},
+		{
+			"offsets": [
+				120,
+				150
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Break1",
+			"loop": false,
+			"name": "ShredBreak_1"
+		},
+		{
+			"offsets": [
+				120,
+				150
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Break2",
+			"loop": false,
+			"name": "ShredBreak_2"
+		},
+		{
+			"offsets": [
+				120,
+				150
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "Break3",
+			"loop": false,
+			"name": "ShredBreak_3"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bambi-mad-guitarn",
+	"position": [
+		170,
+		370
+	],
+	"healthicon": "bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		183,
+		216,
+		-2147483648
+	],
+	"camera_position": [
+		20,
+		120
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

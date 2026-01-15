@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-45
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "a_bambi idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				126,
+				-52
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "a_bambi left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				-40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "a_bambi right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				-2
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "a_bambi up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				-70
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "a_bambi down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				-34
+			],
+			"anim": "Idiot",
+			"fps": 24,
+			"name": "fucking idiot",
+			"indices": []
+		},
+		{
+			"offsets": [
+				108,
+				37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hey",
+			"loop": false,
+			"name": "a_bambi phone"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Angry_Bambi",
+	"position": [
+		170,
+		370
+	],
+	"healthicon": "bambiMad",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		200,
+		0
+	],
+	"camera_position": [
+		20,
+		120
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
