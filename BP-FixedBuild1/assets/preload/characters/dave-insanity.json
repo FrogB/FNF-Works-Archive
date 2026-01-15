@@ -1,0 +1,164 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-20,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "left instance"
+		},
+		{
+			"offsets": [
+				-21,
+				1
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "right instance"
+		},
+		{
+			"offsets": [
+				-20,
+				1
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "up instance"
+		},
+		{
+			"offsets": [
+				-22,
+				1
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "idle instance"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-21,
+				2
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "scared instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-4
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				29
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up instance",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				47,
+				15
+			],
+			"anim": "um",
+			"fps": 24,
+			"name": "um instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down instance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Dave_insanity_lol",
+	"position": [
+		0,
+		160
+	],
+	"healthicon": "dave-insanity",
+	"flip_x": false,
+	"healthbar_colors": [
+		15,
+		95,
+		255
+	],
+	"camera_position": [
+		70,
+		-42
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

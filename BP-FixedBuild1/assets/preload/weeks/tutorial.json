@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Warmup", "gf", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dave",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "Tutorial",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

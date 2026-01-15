@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"test",
+			"bf-pixel",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Macabre",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Soulless 5",
+			"expunged",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekCharacters": [
+		"bf-pixel",
+		"bf-pixel",
+		"gf"
+	],
+	"storyName": "Example",
+	"weekName": "Example",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

@@ -1,0 +1,221 @@
+package;
+
+import flixel.FlxG;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.FlxSprite;
+import flixel.math.FlxMath;
+import openfl.utils.Assets as OpenFlAssets;
+
+using StringTools;
+
+class HealthIcon extends FlxSprite
+{
+	public var sprTracker:FlxSprite;
+	private var isOldIcon:Bool = false;
+	private var isPlayer:Bool = false;
+	public var hasWinning:Bool = false;
+	public var isAnim:Bool = false;
+	private var char:String = '';
+	public var id:Int;
+
+	public var defualtIconScale:Float = 1;
+	public var iconScale:Float = 1;
+	public var iconSize:Float;
+
+	private var tween:FlxTween;
+
+	private var noAntialiasing:Array<String> = [
+		'bambi3d',
+		'bambi3dUnfair',
+		'trueexpunged',
+		'404',
+		'god-expunged-1',
+		'Godly_Goober_2',
+		'bambiGod',
+		'bambiGod-2',
+		'hell1',
+		'hell2',
+		'bamburg',
+		'bamburg_crazy',
+		'homo',
+		'bombu',
+		'bombuExpunged',
+		'crusti',
+		'crusturn',
+		'dave3d',
+		'crimsondave',
+		'minion',
+		'doubleee',
+		'ohfuck'
+	];
+
+	public function new(char:String = 'bf', isPlayer:Bool = false, ?_id:Int = -1)
+	{
+		super();
+		isOldIcon = (char == 'bf-old');
+		this.isPlayer = isPlayer;
+		changeIcon(char);
+		scrollFactor.set();
+	}
+
+	override function update(elapsed:Float)
+	{
+		super.update(elapsed);
+		offset.set(Std.int(FlxMath.bound(width - 150,0)),Std.int(FlxMath.bound(height - 150,0))); // this is for the dnb bounce to work properly //
+		// note to self: turn this into a switch statement
+		if(this.char == 'bambiGod2d') {
+			//fuckin offsets
+			switch(animation.curAnim.name) {
+				case 'neutral':
+					offset.y += 140;
+				case 'defeat':
+					offset.x += 40;
+					offset.y += 115;
+				case 'winning':
+					offset.x += -50;
+					offset.y += 130;
+			}
+			offset.x += FlxG.random.int(-2, 2);
+			offset.y += FlxG.random.int(-2, 2);
+			angle = FlxG.random.int(-2, 2);
+		}
+		if(this.char == 'god-expunged-1') {
+			//fuckin offsets
+			offset.x += 20;
+
+			offset.x += FlxG.random.int(-2, 2);
+			offset.y += FlxG.random.int(-2, 2);
+			angle = FlxG.random.int(-2, 2);
+		}
+
+		if (sprTracker != null)
+			setPosition(sprTracker.x + sprTracker.width + 10, sprTracker.y - 30);
+	}
+
+	public function swapOldIcon() {
+		if(isOldIcon = !isOldIcon) changeIcon('bf-old');
+		else changeIcon('bf');
+	}
+
+	private var iconOffsets:Array<Float> = [0, 0];
+	public function changeIcon(char:String) {
+		if(this.char != char) {
+			switch(char) {
+				case 'bambiGod2d':
+					var name:String = 'icons/animated/icon-bambiGod2d';
+					frames = Paths.getSparrowAtlas(name);
+					scale.set(0.5, 0.5);
+
+					animation.addByPrefix('neutral', 'Neutral', 12, true, isPlayer);
+					animation.addByPrefix('defeat', 'Defeat', 12, true, isPlayer);
+					animation.addByPrefix('winning', 'Winning', 12, true, isPlayer);
+					animation.play('neutral');
+
+					updateHitbox();
+					offset.set(Std.int(FlxMath.bound(width - 150,0)),175);
+					this.isAnim = true;	
+					hasWinning = true;
+				case 'god-expunged-1':
+					var name:String = 'icons/animated/icon-god-expunged-1';
+					frames = Paths.getSparrowAtlas(name);
+
+					animation.addByPrefix('neutral', 'Normal', 12, true, isPlayer);
+					animation.addByPrefix('defeat', 'Dead', 12, true, isPlayer);
+					animation.addByPrefix('winning', 'Win', 12, true, isPlayer);
+					animation.play('neutral');
+					updateHitbox();
+
+					this.isAnim = true;
+					hasWinning = true;	
+				default:
+					var name:String = 'icons/' + char;
+					if(!Paths.fileExists('images/' + name + '.png', IMAGE)) name = 'icons/icon-' + char; //Older versions of psych engine's support
+					if(!Paths.fileExists('images/' + name + '.png', IMAGE)) name = 'icons/icon-face'; //Prevents crash from missing icon
+					var file:Dynamic = Paths.image(name);
+
+					loadGraphic(file); //Load stupidly first for getting the file size
+					if (file.width == 450) {
+						loadGraphic(file, true, Math.floor(width / 3), Math.floor(height));
+						iconOffsets[0] = (width - 150) / 2;
+						iconOffsets[1] = (width - 150) / 2;
+						iconOffsets[2] = (width - 150) / 2;
+						updateHitbox();
+						animation.add(char, [0, 1, 2], 0, false, isPlayer);
+						animation.play(char);
+						this.char = char;
+						hasWinning = true;
+					} else if (file.width == 448) { //MAD BAMBI ICON
+						loadGraphic(file, true, Math.floor(width / 3), Math.floor(height));
+						iconOffsets[0] = (width - 149.333333) / 2;
+						iconOffsets[1] = (width - 149.333333) / 2;
+						iconOffsets[2] = (width - 149.333333) / 2;
+						updateHitbox();
+						animation.add(char, [0, 1, 2], 0, false, isPlayer);
+						animation.play(char);
+						this.char = char;
+						hasWinning = true;
+					} else if (file.width == 480) { //DISPOSITION 404 ICON
+						loadGraphic(file, true, Math.floor(width / 3), Math.floor(height));
+						iconOffsets[0] = (width - 160) / 2;
+						iconOffsets[1] = (width - 160) / 2;
+						iconOffsets[2] = (width - 160) / 2;
+						updateHitbox();
+						animation.add(char, [0, 1, 2], 0, false, isPlayer);
+						animation.play(char);
+						this.char = char;
+						hasWinning = true;
+					} else {
+						loadGraphic(file, true, Math.floor(width / 2), Math.floor(height));
+						iconOffsets[0] = (width - 150) / 2;
+						iconOffsets[1] = (width - 150) / 2;
+						updateHitbox();
+						animation.add(char, [0, 1], 0, false, isPlayer);
+						animation.play(char);
+						this.char = char;
+						hasWinning = false;
+					}
+			}
+			this.char = char;
+
+			antialiasing = ClientPrefs.globalAntialiasing;
+			if(char.endsWith('-pixel') || noAntialiasing.contains(char)) {
+				antialiasing = false;
+			}
+		}
+	}
+
+	public function changeIconStatus(status:Int) {
+		if(!this.isAnim) {
+			animation.curAnim.curFrame = status;
+		} else {
+			switch(status) {
+				case 1:
+					animation.play('defeat', false);
+				case 2:
+					animation.play('winning', false);
+				default:
+					animation.play('neutral', false);
+			}
+		}
+	}
+
+	public function updateHitboxPE()
+	{
+		super.updateHitbox();
+		offset.x = iconOffsets[0];
+		offset.y = iconOffsets[1];
+	}
+
+	public function getCharacter():String {
+		return char;
+	}
+
+	public function tweenToDefaultScale(_time:Float, _ease:Null<flixel.tweens.EaseFunction>){
+
+		if (ClientPrefs.iconBounce == 'Fixed Build') {
+			tween.cancel();
+			tween = FlxTween.tween(this, {iconScale: this.defualtIconScale}, _time, {ease: _ease});
+		}
+	}
+}
